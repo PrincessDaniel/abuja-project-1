@@ -1,0 +1,166 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: playfair-display, serif;
+    font-weight: 400;
+    font-style: italic;
+    background: linear-gradient(#F1FAEE, #d8f3dc, #95d5b2);
+}
+
+img {
+    width: fit-content;
+}
+
+#intro {
+    width: 750px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    background-image: url("images/abuja-cover.jpeg");
+    background-size: cover;
+    margin: 0 auto;
+    padding: 122px 70px;
+}
+
+#intro:hover {
+    width: 750px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    background-image: url("images/I-love-Abuja.jpg");
+    background-size: 890px 700px;
+    margin: 0 auto;
+    padding: 122px 70px;
+}
+
+#ex {
+    margin: 70px auto 10px auto;
+}
+
+#abj {
+    width: 225px;
+    height: 42px;
+    background: #1b4332;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px black;
+    margin: -10px auto;
+    border-radius: 10px;
+    padding: 5px 12px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+
+#summary {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px black;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    margin: 10px;
+    padding: 30px;
+}
+
+#summary:hover {
+    color: black;
+    text-shadow: 1px 1px 3px silver;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    margin: 10px;
+    padding: 30px;
+}
+
+.events {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.text {
+    width: 180px;
+}
+
+#guide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 280px;
+    left: 160px;
+    top: 50px;
+    background: #d8f3dc;
+    border: 1px solid #1b4332;
+    box-shadow: 0px 6px 2px #1b4332;
+    text-shadow: 0px 0px 1px #1b4332;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 23px 13px;
+}
+
+#guide-text {
+    height: 30px;
+}
+
+#guide-text1 {
+    width: 200px;
+    height: 100px;
+    font-style: italic;
+}
+
+#guide-img {
+    width: 140px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.art {
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    overflow: hidden;
+}
+
+#art {
+    background: blue;
+    width: 250px;
+    height: 200px;
+}
+
+.art:hover {
+    overflow: visible;
+}
+
+.recreation {
+    width: 250px;
+    height: 50px;
+    overflow: hidden;
+}
+
+#recreation {
+    background: blue;
+    width: 250px;
+    height: 200px;
+}
+
+#recreation:hover {
+    overflow: visible;
+    height: 300px;
+    margin-top: -150px;
+}
